@@ -1,0 +1,150 @@
+{
+  "hello": "I'm Hs OR Call me Herbert",
+  "description": "西蒙弗雷泽大学应用数学专业研究生。目前是一名就职于 PwC AC Shanghai 的全栈工程师。作为一个全栈工程师，拥有丰富的快速设计和实现产品原形的经验、解决实际问题的经验和强大的学习能力。对任何能够解决问题、完成目标的软件技术都有十足的好奇心和新鲜感。",
+  "personalInformation": [
+    {
+      "label": "姓名",
+      "value": "Herbert HE"
+    },
+    {
+      "label": "年龄",
+      "value": "28"
+    },
+    {
+      "label": "现居住地",
+      "value": "温哥华"
+    },
+    {
+      "label": "E-mail",
+      "value": "hbl2012@gmail.com"
+    },
+    {
+      "label": "WeChat",
+      "value": "arigato_bobo"
+    }
+  ],
+  "language": [
+    {
+      "label": "汉语（普通话）",
+      "score": 10,
+      "value": "母语"
+    },
+    {
+      "label": "英语",
+      "score": 8,
+      "value": "流畅"
+    }
+  ],
+  "professionalSkills": [
+    {
+      "label": "SPA Framework (React.js, Vue.js)",
+      "score": 90
+    },
+    {
+      "label": "Python (Flask, Pandas, Celery, etc.)",
+      "score": 90
+    },
+    {
+      "label": "NodeJS (Koa.js, Nest.js)",
+      "score": 80
+    },
+    {
+      "label": "MySQL/PostgreSQL",
+      "score": 60
+    },
+    {
+      "label": "Docker",
+      "score": 70
+    }
+  ],
+  "additionalSkills": [
+    "Gatsby.js", "GraphQL", "MySQL", "Redis", "MongoDB", "CouchDB/PouchDB", "Neo4j", "RabbitMQ", "Linux", "macOS", "Latex", "Drools", "MatLab", "TensorFlow", "and more..."
+  ],
+  "styledList": [
+    "强大的学习能力",
+    "有效的时间管理",
+    "充沛的自我驱动力",
+    "丰富的解决问题经验"
+  ],
+  "workExperience": [
+    {
+      "start": "2021/03",
+      "end": "2022/09",
+      "company": "Forsta",
+      "city": "温哥华",
+      "title": "高级前端开发工程师",
+      "highlight": "",
+      "responsibility": [
+        "使用 Zoom API 开发了会议 APP",
+        "开发和维护生产线上用户体验和问卷调查APP",
+        "维护公司内部的 React 组件库",
+        "撰写单元测试和端对端测试"
+      ]
+    },
+    {
+      "start": "2020/02",
+      "end": "2021/02",
+      "company": "普华永道信息技术（上海）有限公司",
+      "city": "上海",
+      "title": "高级技术顾问",
+      "highlight": "",
+      "responsibility": [
+        "开发公司内部使用 COVID-19 健康打卡系统和复工申请提交系统",
+        "协助 PWC US 设计并开发 Status Connect 打卡系统，并在开发过程中使用了 MongoDB，React.js，Vue.js，Koa.js"
+      ]
+    },
+    {
+      "start": "2018/02",
+      "end": "2020/02",
+      "company": "思路迪生物医药有限公司",
+      "city": "上海",
+      "title": "Python软件工程师",
+      "highlight": "2018 年度优秀员工（挑战不可能奖）",
+      "responsibility": [
+        "设计并实现了公司内部使用的分布式生物信息分析框架",
+        "设计并实现了一个便于公司内部使用的规则引擎和一套 DSL，并用此自动生成基因测试报告中所使用的的关于基因变异的文字解释",
+        "设计并实现了一个公司内部的临床知识数据库系统，并基于此数据库实现了一个根据基因变异信息进行推理的药物推荐系统"
+      ]
+    },
+    {
+      "start": "2015/09",
+      "end": "2017/12",
+      "company": "西蒙弗雷泽大学",
+      "city": "温哥华",
+      "title": "大学助教",
+      "highlight": "",
+      "responsibility": [
+        "主讲大三微分方程校内课后辅导课程，增强学生对概念的理解并学会如何运用到习题和实例当中。",
+        "负责微积分、微分方程、基础数学课后辅导，解答学生提出的问题。",
+        "批改微积分、微分方程学生作业与考试。",
+        "各课程期末学生匿名评价优秀。"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "start": "2015/09",
+      "end": "2017/12",
+      "company": "西蒙弗雷泽大学",
+      "city": "温哥华",
+      "title": "应用数学（运筹学方向）",
+      "highlight": "SFU 研究生奖学金 2016",
+      "responsibility": [
+        "毕业项目: 素里消防站的消防员缺席分析以及招聘计划优化",
+        "主要课程: 连续/离散优化, 网络流, 线性规划, 非连续优化的数值方法, 解析数论"
+      ]
+    },
+    {
+      "start": "2015/04",
+      "end": "2010/09",
+      "company": "约克大学",
+      "city": "多伦多",
+      "title": "应用数学",
+      "highlight": "学院荣誉名单 2013 & 2014",
+      "responsibility": [
+        "主要课程: 组合数学, 密码学, 蒙特卡洛模拟, 金融数学"
+      ]
+    }
+  ]
+
+}
