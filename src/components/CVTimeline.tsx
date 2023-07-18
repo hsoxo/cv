@@ -6,8 +6,10 @@ import TimelineConnector from '@mui/lab/TimelineConnector'
 import TimelineContent from '@mui/lab/TimelineContent'
 import TimelineDot from '@mui/lab/TimelineDot'
 import TimelineOppositeContent, { timelineOppositeContentClasses } from '@mui/lab/TimelineOppositeContent'
-import NavigateNextRoundedIcon from '@mui/icons-material/NavigateNextRounded'
+import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import styled from '@emotion/styled'
+import Link from '@mui/material/Link';
+import {IconButton} from "@mui/material";
 
 export default function CVTimeline({ title, data }) {
   return (
@@ -31,7 +33,9 @@ export default function CVTimeline({ title, data }) {
             <TimelineContent>
               <Item>
                 <div>
-                  <span className="hs-timeline-title">{e.company}</span> ‎· {e.city}
+                  <span className="hs-timeline-title">{e.company}</span>
+                  {e.city ? `‎· ${e.city}` : null}
+                  {e.link ? <IconButton href={e.link} size="small" target="_blank"><OpenInNewIcon fontSize="inherit" /></IconButton> : null}
                 </div>
                 <div>{e.title}</div>
                 <div>{e.highlight}</div>

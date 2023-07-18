@@ -20,7 +20,7 @@
     },
     {
       "label": "WeChat",
-      "value": "arigato_bobo"
+      "value": "JJWXGZ"
     }
   ],
   "language": [
@@ -45,11 +45,11 @@
       "score": 90
     },
     {
-      "label": "NodeJS (Koa.js, Nest.js)",
+      "label": "NodeJS (Express.js, Nest.js)",
       "score": 80
     },
     {
-      "label": "MySQL/PostgreSQL",
+      "label": "MySQL/MongoDB/DynamoDB",
       "score": 60
     },
     {
@@ -58,7 +58,7 @@
     }
   ],
   "additionalSkills": [
-    "Gatsby.js", "GraphQL", "MySQL", "Redis", "MongoDB", "CouchDB/PouchDB", "Neo4j", "RabbitMQ", "Linux", "macOS", "Latex", "Drools", "MatLab", "TensorFlow", "and more..."
+    "Next.js", "Jest", "D3.js", "Redis", "AWS", "Latex", "RabbitMQ", "and more..."
   ],
   "styledList": [
     "强大的学习能力",
@@ -68,8 +68,20 @@
   ],
   "workExperience": [
     {
+      "start": "Mar 2023",
+      "end": "July 2023",
+      "company": "Know Your Customer",
+      "city": "远程",
+      "title": "高级前端开发工程师",
+      "highlight": "",
+      "responsibility": [
+        "维护就有的 KYC WebUi, 并且用 React 重构就有前端项目"
+      ],
+      "techStack": ["React", "Redux", "TypeScript", "D3.js"]
+    },
+    {
       "start": "2021/03",
-      "end": "2022/09",
+      "end": "2023/03",
       "company": "Forsta",
       "city": "温哥华",
       "title": "高级前端开发工程师",

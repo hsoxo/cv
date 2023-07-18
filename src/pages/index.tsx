@@ -1,11 +1,6 @@
 import React from 'react'
 
 import Layout from '../layout'
-// import Sider from "../components/sider"
-// import Profile from "../components/profile"
-// import CVTimeline from "../components/timeline"
-// import Contact from "../components/contact"
-// import Footer from "../components/footer"
 import Context from '../context'
 import { Switch } from '../components/Switch'
 import { Box, Card, createTheme, Divider, Grid, Switch as MuiSwitch } from '@mui/material'
@@ -19,7 +14,7 @@ import Footer from '../components/Footer'
 
 export const Head = () => (
   <>
-    <title>Hello World</title>
+    <title>Home | HHE.BY</title>
   </>
 )
 
@@ -64,6 +59,8 @@ const IndexPage = () => {
             <Box height={20} />
             <Card sx={{ padding: '24px' }}>
               <CVTimeline title={isEn ? 'Work Experience' : '工作经历'} key="work" data={state.info.workExperience} />
+              <Divider />
+              <CVTimeline title={isEn ? 'Other Projects' : '其他项目'} key="work" data={state.info.otherProjects} />
               <Divider />
               <CVTimeline title={isEn ? 'Education' : '教育经历'} key="edu" data={state.info.education} />
             </Card>

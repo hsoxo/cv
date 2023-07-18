@@ -20,7 +20,7 @@
     },
     {
       "label": "WeChat",
-      "value": "arigato_bobo"
+      "value": "JJWXGZ"
     }
   ],
   "language": [
@@ -45,11 +45,11 @@
       "score": 90
     },
     {
-      "label": "NodeJS (Koa.js, Nest.js)",
+      "label": "NodeJS (Express.js, Nest.js)",
       "score": 80
     },
     {
-      "label": "MySQL/PostgreSQL",
+      "label": "MySQL/MongoDB/DynamoDB",
       "score": 60
     },
     {
@@ -58,7 +58,7 @@
     }
   ],
   "additionalSkills": [
-    "Gatsby.js", "GraphQL", "MySQL", "Redis", "MongoDB", "CouchDB/PouchDB", "Neo4j", "RabbitMQ", "Linux", "macOS", "Latex", "Drools", "MatLab", "TensorFlow", "and more..."
+    "Next.js", "Jest", "D3.js", "Redis", "AWS", "Latex", "RabbitMQ", "and more..."
   ],
   "styledList": [
     "Powerful Learning Ability",
@@ -68,8 +68,20 @@
   ],
   "workExperience": [
     {
+      "start": "Mar 2023",
+      "end": "July 2023",
+      "company": "Know Your Customer",
+      "city": "Remote",
+      "title": "Senior Frontend Developer",
+      "highlight": "",
+      "responsibility": [
+        "Maintained the legacy KYC interface, and develop the new React UI."
+      ],
+      "techStack": ["React", "Redux", "TypeScript", "D3.js"]
+    },
+    {
       "start": "Mar 2021",
-      "end": "Sep 2022",
+      "end": "Mar 2023",
       "company": "Forsta",
       "city": "Vancouver",
       "title": "Senior Frontend Developer",
@@ -79,7 +91,8 @@
         "Developed and maintained the frontend and a Node middleware of the customer experience feedback product in production environment",
         "Maintained the internal used React components package",
         "Writing React component test and end to end test"
-      ]
+      ],
+      "techStack": ["React", "Redux", "TypeScript", "NodeJS", "Express", "Testcafe", "Jest"]
     },
     {
       "start": "Feb 2020",
@@ -91,7 +104,8 @@
       "responsibility": [
         "Developed the internal COVID-19 Check-in application front-end based on Vue.js.",
         "Designed and developed Check-In Web App for PwC US Advisory with MongoDB，React.js，Koa.js"
-      ]
+      ],
+      "techStack": ["React", "Redux", "TypeScript", "NodeJS", "MongoDB"]
     },
     {
       "start": "Feb 2018",
@@ -104,19 +118,21 @@
         "Designed and implemented an in-house distributed bioinformatics analysis framework",
         "Designed and implemented a rule engine for generating genetic mutation explanation content",
         "Designed and implemented a clinical knowledge database as well as a treatment recommendation system based on the knowledge database"
-      ]
-    },
+      ],
+      "techStack": ["Python", "Vue", "MySQL", "Docker", "Redis", "Neo4j"]
+    }
+  ],
+  "otherProjects": [
     {
-      "start": "Sep 2015",
-      "end": "Dec 2017",
-      "company": "Simon Fraser University",
-      "city": "Surrey, Canada",
-      "title": "Teaching Assistant",
+      "start": "Nov 2022",
+      "end": "May 2023",
+      "company": "Artsio.xyz",
+      "link": "https://artsio.xyz",
       "highlight": "",
       "responsibility": [
-        "Leading calculus and basic math workshop",
-        "Leading differential equation tutorial"
-      ]
+        "Build the Next.js frontend and integrate the Python API for an AIGC website"
+      ],
+      "techStack": ["Next.js", "Python", "AWS", "DynamoDB"]
     }
   ],
   "education": [
