@@ -10,7 +10,9 @@ const Profile = ({ data }) => {
   return (
     <Container>
       <h2 style={{ marginBottom: 40 }}>{data.hello}</h2>
-      <p>{data.description}</p>
+      {data.description.split('\n').map((e) => (
+        <p key={e}>{e}</p>
+      ))}
       <Divider />
       <Grid container>
         <Grid item xs={12} md={6}>

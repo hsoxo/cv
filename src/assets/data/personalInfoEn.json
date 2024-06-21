@@ -1,6 +1,6 @@
 {
-  "hello": "I'm Hs OR Call me Herbert",
-  "description": "Graduated from Simon Fraser University with a MSc in Applied Mathematics. I am currently a full stack engineer at PwC AC Shanghai. As a full stack engineer, I have profound experience in rapid prototyping, practical problems solving, and strong learning capabilities. Be curious and fresh about any software technology that solves problems and accomplishes goals. ",
+  "hello": "I'm HHe OR Call me Herbert",
+  "description": "Graduated from Simon Fraser University with a MSc in Applied Mathematics. As a highly efficient full-stack engineer, I excel at tackling intricate tasks with remarkable speed. My skills extend to rapid prototyping, pragmatic problem-solving, and a remarkable aptitude for rapid learning. My proficiency encompasses JavaScript, TypeScript, and Python, while my familiarity includes React, Vue, NodeJS, and Flask. I possess an insatiable curiosity for novel software technologies that drive solutions and achievements, perpetually keeping my approach innovative and rejuvenated.",
   "personalInformation": [
     {
       "label": "Full Name",
@@ -8,19 +8,15 @@
     },
     {
       "label": "Age",
-      "value": "28"
+      "value": "32"
     },
     {
-      "label": "Address",
+      "label": "Based in",
       "value": "Vancouver, BC"
     },
     {
       "label": "E-mail",
       "value": "hbl2012@gmail.com"
-    },
-    {
-      "label": "WeChat",
-      "value": "JJWXGZ"
     }
   ],
   "language": [
@@ -41,11 +37,11 @@
       "score": 90
     },
     {
-      "label": "Python (Flask, Pandas, Celery, etc.)",
+      "label": "Python (FastApi, Pandas, Celery, etc.)",
       "score": 90
     },
     {
-      "label": "NodeJS (Express.js, Nest.js)",
+      "label": "NodeJS (Express.js)",
       "score": 80
     },
     {
@@ -58,7 +54,7 @@
     }
   ],
   "additionalSkills": [
-    "Next.js", "Jest", "D3.js", "Redis", "AWS", "Latex", "RabbitMQ", "and more..."
+    "Next.js", "Jest", "D3.js", "Redis", "AWS (ECS, S3, Lambda, DynamoDB, SQS, etc)", "Latex", "RabbitMQ", "and more..."
   ],
   "styledList": [
     "Powerful Learning Ability",
@@ -68,31 +64,33 @@
   ],
   "workExperience": [
     {
-      "start": "Mar 2023",
-      "end": "July 2023",
+      "start": "May 2023",
+      "end": "May 2024",
       "company": "Know Your Customer",
       "city": "Remote",
       "title": "Senior Frontend Developer",
       "highlight": "",
       "responsibility": [
-        "Maintained the legacy KYC interface, and develop the new React UI."
+        "Refactored an existing Angular project to React, achieving higher performance and improved user experience.",
+        "Rewrote existing pages and components using React and related technologies (e.g., Redux, ).",
+        "Collaborated with backend team to ensure smooth data interaction between frontend and backend.",
+        "Developed end-to-end tests using Cypress for automated testing, ensuring application quality and stability."
       ],
-      "techStack": ["React", "Redux", "TypeScript", "D3.js"]
+      "techStack": ["React", "Redux", "TypeScript", "D3.js", "Cypress"]
     },
     {
       "start": "Mar 2021",
-      "end": "Mar 2023",
-      "company": "Forsta",
+      "end": "May 2023",
+      "company": "PG Forsta",
       "city": "Vancouver",
       "title": "Senior Frontend Developer",
       "highlight": "",
       "responsibility": [
-        "Developed a meeting app using Zoom API",
-        "Developed and maintained the frontend and a Node middleware of the customer experience feedback product in production environment",
-        "Maintained the internal used React components package",
-        "Writing React component test and end to end test"
+        "Spearheaded the development and maintenance of the frontend project and NodeJS middlewares for a customer experience feedback product, ensuring seamless operation within the production environment.",
+        "Oversaw the maintenance of an internally utilized React components package, guaranteeing its reliability and relevance.",
+        "MainWrote React unit tests and end-to-end tests, bolstering the project's robustness and user experience."
       ],
-      "techStack": ["React", "Redux", "TypeScript", "NodeJS", "Express", "Testcafe", "Jest"]
+      "techStack": ["React", "Redux", "TypeScript", "NodeJS", "Express", "Jest"]
     },
     {
       "start": "Feb 2020",
@@ -102,8 +100,8 @@
       "title": "Senior Technology Lead",
       "highlight": "",
       "responsibility": [
-        "Developed the internal COVID-19 Check-in application front-end based on Vue.js.",
-        "Designed and developed Check-In Web App for PwC US Advisory with MongoDB，React.js，Koa.js"
+        "Led TypeScript full-stack development utilizing React and Node.js, with additional involvement in the development of the CI/CD pipeline to ensure seamless deployment and integration.",
+        "Demonstrated adeptness in React UI development, seamlessly integrating advanced technologies such as D3.js and Google APIs to enhance user interfaces and overall functionality."
       ],
       "techStack": ["React", "Redux", "TypeScript", "NodeJS", "MongoDB"]
     },
@@ -115,24 +113,36 @@
       "title": "Data Engineer",
       "highlight": "Star Employee of the Year 2018 (Challenge the Impossible Award)",
       "responsibility": [
-        "Designed and implemented an in-house distributed bioinformatics analysis framework",
-        "Designed and implemented a rule engine for generating genetic mutation explanation content",
-        "Designed and implemented a clinical knowledge database as well as a treatment recommendation system based on the knowledge database"
+        "Conceptualized and executed the design and development of a distributed bioinformatics analysis framework using Python, contributing to enhanced efficiency and scalability in analysis processes.",
+        "Engineered an automated context generation system for genetic testing reports, streamlining the report generation process and ensuring accuracy.",
+        "Constructed a web crawler to gather genetic variant information, furnishing a valuable data repository for further analysis and research.",
+        "Orchestrated the end-to-end development of a clinical knowledge base, including the frontend, backend, and database components. This comprehensive contribution resulted in a robust and functional system for clinical information management."
       ],
       "techStack": ["Python", "Vue", "MySQL", "Docker", "Redis", "Neo4j"]
     }
   ],
   "otherProjects": [
     {
-      "start": "Nov 2022",
-      "end": "May 2023",
+      "start": "2023",
+      "end": "2024",
+      "company": "Newcast",
+      "link": "https://newcast.ai",
+      "highlight": "A website that simplifies the creation of marketing videos. Leverage AI avatars to bring your scripts to life and effortlessly animate captions for greater impact.",
+      "responsibility": [
+        "Build the Next.js frontend and Python API for an AI avatar video creation website."
+      ],
+      "techStack": ["Next.js", "Python (FastApi, LangChain)", "AWS (ECS, S3, Lambda, DynamoDB, SQS, etc)"]
+    },
+    {
+      "start": "2022",
+      "end": "2023",
       "company": "Artsio.xyz",
       "link": "https://artsio.xyz",
-      "highlight": "",
+      "highlight": "Discover, inspire, and create AI generated images using stable diffusion models.",
       "responsibility": [
-        "Build the Next.js frontend and integrate the Python API for an AIGC website"
+        "Build the Next.js frontend and integrate the Python API for the AIGC website"
       ],
-      "techStack": ["Next.js", "Python", "AWS", "DynamoDB"]
+      "techStack": ["Next.js", "Python (Sanic)", "AWS (ECS, S3, Lambda, DynamoDB, SQS, etc)"]
     }
   ],
   "education": [

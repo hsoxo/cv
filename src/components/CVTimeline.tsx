@@ -8,7 +8,6 @@ import TimelineDot from '@mui/lab/TimelineDot'
 import TimelineOppositeContent, { timelineOppositeContentClasses } from '@mui/lab/TimelineOppositeContent'
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import styled from '@emotion/styled'
-import Link from '@mui/material/Link';
 import {IconButton} from "@mui/material";
 
 export default function CVTimeline({ title, data }) {

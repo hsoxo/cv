@@ -1,6 +1,6 @@
 {
-  "hello": "I'm Hs OR Call me Herbert",
-  "description": "西蒙弗雷泽大学应用数学专业研究生。目前是一名就职于 PwC AC Shanghai 的全栈工程师。作为一个全栈工程师，拥有丰富的快速设计和实现产品原形的经验、解决实际问题的经验和强大的学习能力。对任何能够解决问题、完成目标的软件技术都有十足的好奇心和新鲜感。",
+  "hello": "I'm HHe OR Call me Herbert",
+  "description": "西蒙弗雷泽大学应用数学专业研究生。，对 TypeScript / JavaScript / Python 等技能有很强的掌握，熟悉 React / Next.js / Flask 等框架，并且拥有设计和实施解决方案的经验，并能够高效的完成具有挑战性的任务。在这个领域里，既能够让我的技术和学术技能转化为工作能力来促进公司的发展，又能在工作中学到新的知识和思维模式，工作和学习相辅相成。\n自我评价：学习能力强，重视细节，对工作认真负责，在工作中可以利用自己强大的逻辑能力和解决问题的能力对需求做出合理的解决方案，从不因难于实现而放弃。定期对自己的工作进行总结，对一些重要的项目进行重新思考是否存在更好的解决方案，并快速落实。",
   "personalInformation": [
     {
       "label": "姓名",
@@ -8,7 +8,7 @@
     },
     {
       "label": "年龄",
-      "value": "28"
+      "value": "32"
     },
     {
       "label": "现居住地",
@@ -41,11 +41,11 @@
       "score": 90
     },
     {
-      "label": "Python (Flask, Pandas, Celery, etc.)",
+      "label": "Python (FastApi, Pandas, Celery, etc.)",
       "score": 90
     },
     {
-      "label": "NodeJS (Express.js, Nest.js)",
+      "label": "NodeJS (Express.js)",
       "score": 80
     },
     {
@@ -58,7 +58,7 @@
     }
   ],
   "additionalSkills": [
-    "Next.js", "Jest", "D3.js", "Redis", "AWS", "Latex", "RabbitMQ", "and more..."
+    "Next.js", "Jest", "D3.js", "Redis", "AWS (ECS, S3, Lambda, DynamoDB, SQS, etc)", "Latex", "RabbitMQ", "and more..."
   ],
   "styledList": [
     "强大的学习能力",
@@ -68,14 +68,17 @@
   ],
   "workExperience": [
     {
-      "start": "Mar 2023",
-      "end": "July 2023",
+      "start": "May 2023",
+      "end": "May 2024",
       "company": "Know Your Customer",
       "city": "远程",
       "title": "高级前端开发工程师",
       "highlight": "",
       "responsibility": [
-        "维护就有的 KYC WebUi, 并且用 React 重构就有前端项目"
+        "将现有的Angular项目重构为React，实现了更高的性能和改进的用户体验。",
+        "使用React及其相关技术（如Redux），重写现有页面和组件。",
+        "与后端团队合作，确保前端与后端之间数据交互的顺畅。",
+        "使用Cypress开发端到端测试，自动化测试，确保应用程序的质量和稳定性。"
       ],
       "techStack": ["React", "Redux", "TypeScript", "D3.js"]
     },
@@ -87,10 +90,9 @@
       "title": "高级前端开发工程师",
       "highlight": "",
       "responsibility": [
-        "使用 Zoom API 开发了会议 APP",
-        "开发和维护生产线上用户体验和问卷调查APP",
-        "维护公司内部的 React 组件库",
-        "撰写单元测试和端对端测试"
+        "主导开发和维护客户体验反馈产品的前端项目和NodeJS中间件，在生产环境中确保其无缝运行。",
+        "负责维护内部使用的React组件包，保证其可靠性和相关性。",
+        "编写React单元测试和端到端测试，增强项目的健壮性和用户体验。"
       ]
     },
     {
@@ -101,8 +103,8 @@
       "title": "高级技术顾问",
       "highlight": "",
       "responsibility": [
-        "开发公司内部使用 COVID-19 健康打卡系统和复工申请提交系统",
-        "协助 PWC US 设计并开发 Status Connect 打卡系统，并在开发过程中使用了 MongoDB，React.js，Vue.js，Koa.js"
+        "带领 TypeScript 全栈开发，使用 React 和 Node.js，同时参与 CI/CD 管道的开发，确保无缝部署和集成。",
+        "展示了在 React UI 开发方面的精湛技能，无缝集成先进技术如 D3.js 和 Google APIs，增强用户界面和整体功能。"
       ]
     },
     {
@@ -113,9 +115,10 @@
       "title": "Python软件工程师",
       "highlight": "2018 年度优秀员工（挑战不可能奖）",
       "responsibility": [
-        "设计并实现了公司内部使用的分布式生物信息分析框架",
-        "设计并实现了一个便于公司内部使用的规则引擎和一套 DSL，并用此自动生成基因测试报告中所使用的的关于基因变异的文字解释",
-        "设计并实现了一个公司内部的临床知识数据库系统，并基于此数据库实现了一个根据基因变异信息进行推理的药物推荐系统"
+        "构思并执行了使用Python开发的分布式生物信息学分析框架的设计，提升了分析过程的效率和可扩展性。",
+        "设计了一个自动化的上下文生成系统，用于遗传测试报告，简化了报告生成流程并确保准确性。",
+        "开发了一个网络爬虫，用于收集遗传变异信息，为进一步的分析和研究提供了宝贵的数据库。",
+        "策划并负责了临床知识库的端到端开发，包括前端、后端和数据库组件。这一全面的贡献使得临床信息管理系统变得强大而功能齐全。"
       ]
     },
     {
@@ -131,6 +134,30 @@
         "批改微积分、微分方程学生作业与考试。",
         "各课程期末学生匿名评价优秀。"
       ]
+    }
+  ],
+  "otherProjects": [
+    {
+      "start": "2023",
+      "end": "2024",
+      "company": "Newcast",
+      "link": "https://newcast.ai",
+      "highlight": "一个简化营销视频创建过程的网站。利用AI头像将您的剧本生动化，并轻松地为字幕增添影响力。",
+      "responsibility": [
+        "构建Next.js前端和Python API，用于AI头像视频创建网站。"
+      ],
+      "techStack": ["Next.js", "Python (FastApi, LangChain)", "AWS (ECS, S3, Lambda, DynamoDB, SQS, etc)"]
+    },
+    {
+      "start": "2022",
+      "end": "2023",
+      "company": "Artsio.xyz",
+      "link": "https://artsio.xyz",
+      "highlight": "使用 Stable Diffuision 模型发现、启发和创建 AI 生成的图像。",
+      "responsibility": [
+        "构建Next.js前端并集成Python API，用于AIGC网站。"
+      ],
+      "techStack": ["Next.js", "Python", "AWS", "DynamoDB"]
     }
   ],
   "education": [
